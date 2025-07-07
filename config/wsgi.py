@@ -12,7 +12,7 @@ import os
 from django.core.wsgi import get_wsgi_application
 
 # os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.dev')
-# i have set production changes here 
+# i have set production changes here in confifeature here
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.prod')
 
 
